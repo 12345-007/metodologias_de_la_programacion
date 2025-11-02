@@ -42,3 +42,42 @@ last_name= "mercury"
 full_name= first_name + " " + last_name
 print(full_name)
 print("hola, " + full_name.title() + "!")
+
+# syntax error con strings
+message= "una fortalesa de python es su comunidad"
+print(message)
+
+message = "una fortalesa de 'python' es su comunidad "
+print(message)
+
+
+# cocantenacion con f-strings
+"""
+() - parentesis
+{} - llaves
+[] - corchetes
+
+"""
+famous_person= "Emiliano ortiz"
+quote= "python is love"
+
+# concatenacion convencional 
+message= famous_person + " " + quote
+print(message)
+
+# concatenacion con f-strings
+message= f"{famous_person} una ves dijo  {quote}"
+print(message)
+
+# actividad 
+"""
+1. elige un personaje famoso y igualalo con una variable strings.
+2. elige una frase famosa del personaje e igualala con otra variable string.
+3. genera un mensaje con las dos variables utilizando f-strings.
+4. imprime el mensaje.
+
+"""
+famous_person2= "alfredo valenzuela"
+quote2= "nada es imposible"
+message2= f"{famous_person2} una ves dijo {quote2}"
+print(message2) 
