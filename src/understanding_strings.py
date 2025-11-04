@@ -100,16 +100,16 @@ print("lenguajes: \npython \nc \njavascript") # salto de linea
 print("emiliano")
 print("ortiz")
 
-#
+message = """
 
-
-
-
-
-
-
-
-
+    esta clase es de programacion
+    
+    mis compañeros son  buena onda 
+    
+                            metodologias de la programacion
+                            
+"""
+print(message)
 
 
 #eliminacion de spacios en blanco
