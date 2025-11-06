@@ -43,6 +43,9 @@ print("divicion:", a/b)
 print("modulo:", a%b)
 
 
+age = 18
+message = "emiliano tiene" " "+ str(age) + " " "años"
+print(message)
 
 
 

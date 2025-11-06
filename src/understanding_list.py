@@ -1,5 +1,5 @@
 # LISTAS 
-# una lista es una coleccion oedenada y mutable de elementos.
+# una lista es una coleccion ordenada y mutable de elementos.
 # se pueden crear listas utilizando los corchetes [] y separando los elementos con comas.
 # Ejemplo de creacion de una lista
 frutas = ['manzanas','banana','cereza','naranja'] 
