@@ -49,6 +49,12 @@ print(message)
 
 
 
+nombre = input("ingresa tu nombre:")
+edad = input("ingresa tu edad:")
+altura = input("ingresa tu altura:")
+message = "tu nombre es" + " " + nombre + "," + " " + "tienes" + " " + edad + " " + "años" + "," + " " + "y tu altura es:" + " " + altura + " " + "metros."
+print(message)
+
 
 
 

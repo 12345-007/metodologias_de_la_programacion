@@ -2,14 +2,28 @@
 # una lista es una coleccion ordenada y mutable de elementos.
 # se pueden crear listas utilizando los corchetes [] y separando los elementos con comas.
 # Ejemplo de creacion de una lista
-frutas = ['manzanas','banana','cereza','naranja'] 
-print(frutas)  # Salida: ['manzanas', 'banana', 'cereza', 'naranja'] 
+frutas = ['manzanas', 'sandia', 'banana', 'ceresa', 'naranja']
+print(frutas) # Salida: ['manzanas', 'sandia', 'banana', 'ceresa', 'naranja']
 
-print(frutas[0].upper())  # Salida: manzanas
-print(frutas[1].title())  # Salida: Banana
-print(frutas[2])    # Salida: cereza         
-print(frutas[3]) # Salida: naranja     
- 
+print(frutas[0]) # Salida: Manzanas
+print(frutas[1]) # Salida: sandia
+print(frutas[2]) # Salida: banana
+print(frutas[3]) # Salida: ceresa   
+print(frutas[4]) # Salida: naranja
+
+print(frutas[-1]) # Salida: naranja
+print(frutas[-2]) # Salida: ceresa
+print(frutas[-3]) # Salida: banana
+print(frutas[-4]) # Salida: sandia
+print(frutas[-5]) # Salida: manzanas
+
+
+message = f'mis frutas faboritas son: {frutas[0].title()},"y" {frutas[-1].title()}'
+print(message)  # Salida: mis frutas favoritas son:Manzanas,"y" Naranja
+
+
+
+print("\nAcceso a los elementos de la lista utilizando indices positivos\n")
 """
 el orden de los elementos al empesar a de isquierda a derecha y el indice empieza en 0.
 y al empesar de derecha a izquierda el indice empieza en -1.
