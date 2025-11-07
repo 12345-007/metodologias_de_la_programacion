@@ -150,4 +150,59 @@ delated_name = input("\n \n ingresa el nombre que deseas eliminar:")
 names.remove(delated_name.strip().lower())
 print(names)
 
+#tema de examen
+
+"""
+   ordenar listas 
+
+   metodo de listas: sort()
+
+   ordenamiento permanente, es decir, ordena la lista permanentemenre.
+
+
+"""
+cars = ['bmw', 'audi', 'ford', 'kia']
+print(cars)
+cars.sort(reverse=True)     
+print(cars)
+
+"""el metodo sort() ordena la lista en orden alfabetico inverso."""
+
+""""
+modo reverse 
+"""
+
+motorcycles = ['mortalica', 'honda', 'yamaha', 'suzuki']
+print(motorcycles) 
+motorcycles.reverse()  # el metodo reverse() invierte el orden de la lista.
+print(motorcycles)
+
+
+"""
+cantidad de elementos en una lista
+metodo built-in: len()
+len(): devuelve la cantidad de elementos en una lista. a numero entero.
+"""
+cars = ['ford', 'kia', 'chevrolet', 'audi']
+print("\n metodo built-in len()\n")
+print(len(cars)) 
+# Salida: 4
+
+"""
+mencione los metodos utilisados en las listas (tipo de preguntas de examen )
+"""
+
+
+"""
+metodo built-in
+sorted():
+ordena una lista temporalmente sin modificar la lista original.
+
+"""
+favorite_students = ['emiliano', 'juan', 'pedro', 'maria', 'ana']
+print(favorite_students)
+
+
+print("ordena la lista temporalmente:", sorted(favorite_students, reverse=True))
+print("lista original:", favorite_students)
 
