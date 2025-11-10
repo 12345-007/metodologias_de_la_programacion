@@ -45,4 +45,5 @@ magicians = ['alice', 'david', 'carolina']
 for magician in magicians: # (sytaxis error): olvidar colocar los dos puntos (:) al final de la linea del for
     print(magician)
     
+
     
