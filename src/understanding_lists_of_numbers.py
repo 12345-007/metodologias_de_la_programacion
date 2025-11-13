@@ -60,6 +60,8 @@ digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 print(f"lista de dijitos: {digits}")
 
 
+squares_lis_comp=[num**2 for num in range(10)]
+print(squares_lis_comp)
 
 
 
