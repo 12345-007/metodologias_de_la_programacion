@@ -70,7 +70,7 @@ print(3*0.1)
 
 ### imprimir la edad de alguien 
 age = 33
-message = "emiliano tiene" + age + "años"
+message = "emiliano tiene" + str(age) + "años"
 print(message)
 
 """
@@ -79,6 +79,6 @@ esta utilizando.
 
 para convertir a string utilizo: str()
 """
-message = "emiliano tiene " + {age} + " años"
+message = "emiliano tiene " + str(age) + " años"
 print(message)
 
