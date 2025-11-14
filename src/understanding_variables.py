@@ -38,5 +38,5 @@ NameError: name 'charly_mesage' is not defined. Did you mean: 'charly_message'?
 
 
 NameError: significa que olvidamos obedeser el valor de una variable antes de utilizar o cometimos un error 
-al ingresar el nombre de la variable 
+al ingresar el nombre de la variable.
 """
