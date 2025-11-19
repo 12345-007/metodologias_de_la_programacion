@@ -1,5 +1,5 @@
 """
-las tuolas son listas de emnetos que no pueden cambiar su tamaño.}
+las tuplas son listas de emnetos que no pueden cambiar su tamaño.}
 las tuplas son lkistas inmutables.
 
 se utilizan () para definir una tupla.
