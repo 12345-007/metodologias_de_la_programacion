@@ -16,19 +16,20 @@ except:
 
 print("hola charly")
 """
+age = 18
 try:
     print("tuviste un error al ingresar la edad")
-except:
-if age > 100:
-    print('tienes mas de un siglo de vida')
-elif age >=18 and age <= 100:
-    print ("eres mayor de edad")
-elif age <18 and age >= 0:
-    print("eres menor de edad")
-else:
-    print("tuviste un error ")
 
-print("hola charly")
+    if age > 100:
+        print('tienes mas de un siglo de vida')
+    elif age >=18 and age <= 100:
+        print ("eres mayor de edad")
+    elif age <18 and age >= 0:
+        print("eres menor de edad")
+    else:
+       print("tuviste un error ")
+except:
+    print("hola charly")
 
 
 
@@ -43,7 +44,7 @@ entonses la entrada cuesta $200
 """
 
 # multiple if
-guisos ['desebrada', 'asado', 'salsa verde', 'pozole']
+guisos = ['desebrada', 'asado', 'salsa verde', 'pozole']
 if "asado" in guisos:
     print('si ay asado')
 else:
